@@ -1,0 +1,32 @@
+{
+    "name": "miikabachok/laravel-localization",
+    "description": "Simple Laravel application localization.",
+    "type": "library",
+    "keywords": ["laravel", "localization"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MiiKabachok\\LaravelLocalization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nazarii Florchuk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "symfony/http-foundation": "^6.2",
+        "illuminate/support": "^10.0",
+        "illuminate/http": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MiiKabachok\\LaravelLocalization\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
